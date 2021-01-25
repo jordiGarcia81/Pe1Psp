@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Psp2-AE3" />
+        <module name="GarciaIbor__JordiAE3 - copia" />
+        <module name="ejemploMaven" />
+        <module name="psp" />
+        <module name="GarciaIbor__JordiAE3" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
