@@ -11,6 +11,7 @@
         <module name="ejemploMaven" />
         <module name="psp" />
         <module name="GarciaIbor__JordiAE3" />
+        <module name="PE1SERVIDOR" />
       </profile>
     </annotationProcessing>
   </component>

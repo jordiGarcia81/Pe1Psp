@@ -35,7 +35,7 @@ public class MailSender implements Runnable {
         BufferedReader br = null;
         String linea = "";
         Collection<Callable<String>> objectMail = new ArrayList<>();
-        ExecutorService executorService = Executors.newFixedThreadPool(40);
+        ExecutorService executorService = Executors.newFixedThreadPool(2);
         executorService.shutdown();
         try {
             if(!executorService.awaitTermination(5, TimeUnit.SECONDS)) {
@@ -87,8 +87,8 @@ public class MailSender implements Runnable {
             email.setAuthenticator(new DefaultAuthenticator("",""));
             email.setSSLOnConnect(false);
             email.setFrom(ultimoCorreo);
-            email.setSubject("Nuevo Miembro");
-            email.setMsg("El nuevo miembro es: " + ultimoCorreo);
+            email.setSubject("Buy/Sell");
+            email.setMsg("El nuevo miembro notificado es: " + ultimoCorreo);
             email.addTo(mails);
             email.send();
 

@@ -16,7 +16,7 @@ public class App {
         DataInputStream dataInput =  new DataInputStream(socket.getInputStream());
         DataOutputStream dataOutput = new DataOutputStream(socket.getOutputStream());
 
-    //Scanner scanner= new Scaner();
+   // Scanner scanner= new Scanner();
         dataOutput.writeUTF("operaciones");
         String respuesta="";
         respuesta = dataInput.readUTF();

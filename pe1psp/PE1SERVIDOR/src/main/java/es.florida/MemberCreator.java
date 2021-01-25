@@ -26,7 +26,7 @@ public class MemberCreator implements Runnable  {
         int posNombre=random.nextInt(nombres.length);
         int posApellido=random.nextInt(apellidos.length);
         int posCorreo = random.nextInt(correo.length);
-        //System.out.println( "Nombre: +nombres[posNombre],+" "+Apellidos: +apellidos[posApellido]+" "+apellidos[posApellido]+" "+email: "+nombres[posNombre]+" "+apellidos[posApellido]+" "+correo[posCorreo]);
+        System.out.println( "Se crea el usuario : "+nombres[posNombre]+" "+apellidos[posApellido]+" "+apellidos[posApellido]+" "+nombres[posNombre]+apellidos[posApellido]+correo[posCorreo]);
 
         String currentMail = nombres[posNombre]+apellidos[posApellido]+correo[posCorreo];
         String output = currentMail;
